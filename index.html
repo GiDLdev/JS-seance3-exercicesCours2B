@@ -10,21 +10,24 @@
 
     <table>
         <thead>
-            <tr><td>Nom</td><td>Valeur</td></tr>
+            <tr><td class="nomhead">Nom</td><td class="nomhead">Valeur</td></tr>
         </thead>
         <tbody>
-            <tr><td>Couleur de fond (rgb)</td><td><input type="range" class="range" id="background" name="background" min="0" max="255" value="0" step="5"></td></tr>
-            <tr><td>padding</td><td><input type="range" id="padding" class="range" name="padding" min="0" max="30" value="0" step="5"></td></tr>
-            <tr><td>height</td><td><input type="range" id="height" class="range" name="height" min="0" max="200" value="0" step="5"></td></tr>
-            <tr><td>width</td><td><input type="range" id="width" class="range" name="width" min="0" max="200" value="0" step="5"></td></tr>
-            <tr><td>arrondi</td><td><input type="range" id="arrondi" class="range" name="arrondi" min="0" max="30" value="0" step="5"></td></tr>
-            <tr><td>rotation</td><td><input type="range" id="rotation" class="range" name="rotation" min="0" max="180" value="0" step="5"></td></tr>
+            <tr><td class="nom">background (rgb)</td><td class="range">0<input type="range" id="background" name="background" min="0" max="255" value="0" step="5">255</td></tr>
+            <tr><td class="nom">padding</td><td class="range">0<input type="range" id="padding" name="padding" min="0" max="30" value="0" step="5">30</td></tr>
+            <tr><td class="nom">height</td><td class="range">0<input type="range" id="height" name="height" min="0" max="200" value="0" step="5">200</td></tr>
+            <tr><td class="nom">width</td><td class="range">0<input type="range" id="width" name="width" min="0" max="200" value="0" step="5">200</td></tr>
+            <tr><td class="nom">arrondi</td><td class="range">0<input type="range" id="arrondi" name="arrondi" min="0" max="30" value="0" step="5">30</td></tr>
+            <tr><td class="nom">rotation</td><td class="range">0<input type="range" id="rotation" name="rotation" min="0" max="180" value="0" step="5">180</td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
         </tbody>
         <tfoot>
             <tr><td class="titre">Titre de test</td></tr>
-            <tr><td><input type="button" value="change" OnClick="changeAtt()"></td></tr>
         </tfoot>
     </table>
+    <form><input type="button" value="change" OnClick="changeAtt()"></form>
 
     
 

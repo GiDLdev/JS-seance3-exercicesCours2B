@@ -1,9 +1,11 @@
 
-let range = document.getElementsByClassName('range'); 
-let valeur = document.getAttribute('step');
-//let newvalue = value + 10;
 
 function changeAtt(){
-  range.toggleAttribute('valeur' [20]);
+let valeur = document.getAttribute('value', [0]);
+let myArray = ['background', 'padding', 'height', 'width', 'arrondi', 'rotation'];
+
+  //myArray.setAttribute('valeur', [20]);
+  //alert(myArray[6]);
 
 }
+changeAtt();
